@@ -1,0 +1,31 @@
+<!dotype html>
+<html>
+    <head>
+    <title>Auth With PassportJS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="fluid-container">
+        <div class="jumbotron" style="background:teal">
+            <h2><center style="color: white">Hai <%= user.nama %></center></h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+        <div class="col col-md-offset-0">
+            <center><h4>Your Profile</h4>
+            Nama = <%= user.nama %><br>
+            Username = <%= user.username %>
+                <br>
+            <a href="/keluar" class="btn btn-danger">Keluar</a>
+        </center>
+            </div>
+            </div>
+            </div>
+
+</body>
+</html>
+
